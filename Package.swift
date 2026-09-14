@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationMintegralAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationMintegralAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationMintegralAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/mintegral-adapter/AppLovinMediationMintegralAdapter-8.1.7.0.0.zip",
-            checksum: "0d51cb65803a28af7f9adfd99292ce4d82dc85988909fc7c635e421e81c1a4b5"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/mintegral-adapter/AppLovinMediationMintegralAdapter-8.1.7.0.1.zip",
+            checksum: "22dc0102333626606450b56a0c4baa7da041a5d8f2dfc387fa1d47b3b31e4233"
         )
     ]
 )
